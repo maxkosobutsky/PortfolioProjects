@@ -1,9 +1,8 @@
-
 -- DATA CLEANING --
 
 Select *
 From [Portfolio Project].dbo.NashvilleHousing
--------------------------------------------------------------------------------
+------------------------------------------------------------------
 
 -- Standardize Date Format
 
