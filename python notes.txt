@@ -1,0 +1,94 @@
+
+  within_range = False
+    
+    # Change the user position to an integer they can type in
+    choice_int = int(choice)
+    
+    # Range is 1-9 according to the game board
+    acceptable_range = choice
+    
+    # While the user input is NOT a digit, revert back to input
+    while choice.isdigit() == False:
+                
+        # Digit check
+        if choice.isdigit() == False:
+            print("Sorry, that's not a digit")
+            
+        # If the choice is a digit
+        if choice.isdigit() == True:
+           # And if it is within the range 1-9
+            if int(choice) in acceptable_range:
+                
+                within_range = True
+            
+            else:
+                print("Sorry, you are not within the range")
+                within_range = False
+                
+    return int(choice)
+        
+
+
+
+def user_choice():
+    
+    choice = 'WRONG'
+    
+    while choice.isdigit() == False:
+    
+        choice = input("Please enter a number (0-10): ")
+        
+        if choice.isdigit() == False:
+            print("Sorry that is not a digit!")
+    
+    return int(choice)
+
+_____________________________________________________________________________________________
+
+def user_choice():
+    
+    #VARIABLES
+    
+    #Initial
+    choice = 'WRONG'
+    acceptable_range = range(0,10)
+    within_range = False
+    
+    #TWO CONDITIONS TO CHECK
+    # DIGIT OR WITHIN_RANGE==FALSE
+    
+    while choice.isdigit() == False:
+    
+        choice = input("Please enter a number (0-10): ")
+        
+        #DIGIT CHECK
+        if choice.isdigit() == False:
+            print("Sorry that is not a digit!")
+            
+        #RANGE CHECK
+        if choice.isdigit() == True:
+            if int(choice) in acceptable_range:
+                within_range = True
+            else:
+                print("Sorry, you are out of acceptable range :( ")
+                within_range = False
+    
+    return int(choice)
+
+
+______________________________________________________________________________________________
+
+def position_choice():
+    
+    #INITIAL CHOICE IS WRONG
+    choice = 'wrong'
+    
+    while choice not in ['0','1','2']:
+        
+        choice = input("Pick a position (0,1,2): ")
+        
+        if choice not in ['0','1','2']:
+            
+            print ('Sorry, invalid choice')
+            
+    return int(choice)
