@@ -20,3 +20,12 @@ contained housing and land values and addresses.
 Using Microsoft SQL Server I cleaned the data by
 standardizing the date formats, breaking up addresses
 into individual columns and removed duplicate rows/columns using CTE
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Movie Correlation Project in Python:
+
+I used movie data to find any positive correlations using pandas, numpy, seaborn, and matplotlib. 
+Coded using Jupyter Notebook
+
+
