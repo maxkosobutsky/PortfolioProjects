@@ -2,9 +2,9 @@
 
 Covid-19 Deaths Project:
 
-I used the covid-19 deaths dataset from www.ourworldindata.com,
-which was a huge and messy dataset consisting of 800K rows of worldwide covid cases,
-infections, deaths, and tons of other metrics.
+Used covid-19 deaths dataset from www.ourworldindata.com,
+800K rows of worldwide covid cases,
+infections, deaths, and other metrics.
 
 Using Microsoft SQL Server, I cleaned the up the data, got rid of NULL values,
 created new columns that sorted out specific metrics,
