@@ -215,5 +215,3 @@ WHERE
 	FROM #Monthly_Vaccinations)
 ORDER BY 
 	Vaccinations_per_100k_capita DESC
-
-	--****************************************************RESULT = CANADA IS DOING THE BEST JOB AT VACCINATING ITS PEOPLE***********************************************
